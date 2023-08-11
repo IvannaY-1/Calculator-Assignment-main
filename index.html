@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"><title>Calculator</title>
+
+  </head>
+  
+  <body>
+      <h1 class="title">Calculator</h1>
+
+      <input type="number" name="numberInput" id="num1-el" placeholder="Input number" />
+        <br /><br /><br>
+      <input type="number" name="numberInput" id="num2-el" placeholder="Input number" />
+        <br /><br />
+    <section class="container">
+
+      <button onclick="add()">Add</button>
+     <button onclick="Subtract()">Subtract</button>
+      <button onclick="Divide()">Divide</button>
+      <button onclick="Multiply()">Multiply</button>
+      <button onclick="reset()">Reset</button>
+    </section>
+
+      <p id="error"></p>
+      <p id="result">Result is__</p>
+    
+        <script src="script.js"></script>
+
+  </body>
+</html>
+
+
+<!-- HOSTED DEMO: https://64a42e231736cb1961f695a5--zingy-medovik-5abac5.netlify.app/ -->
